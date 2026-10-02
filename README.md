@@ -80,6 +80,18 @@ The cleaned dataset contains **128,942 records and 28 columns**.
 
 The dataset includes order dates, statuses, product categories, SKUs, quantities, amounts, shipping locations, fulfilment methods, and promotion-related fields.
 
+## Dataset Source
+
+* **Dataset:** Amazon Sale Report
+* **Source:** [E-Commerce Sales Dataset — Kaggle](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data)
+* **File used:** `Amazon Sale Report.csv`
+
+The dataset contains Amazon India sales records, including order status, product category, quantity, sales amount, fulfilment method, shipping location, and promotion information.
+
+The dataset was cleaned and transformed using Python and Pandas before being analyzed with SQL and Power BI.
+
+**Note:** This project uses recorded sales amounts, not profit. The dataset does not provide the cost information needed to calculate profit.
+
 ## How to Explore the Project
 
 1. Open `Ecommerce_Sales_Analysis.ipynb` in Jupyter Notebook or VS Code.
