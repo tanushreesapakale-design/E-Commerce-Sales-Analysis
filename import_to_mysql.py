@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine, URL, text
-from getpass import getpass
+from getpass import getpass 
 
 # 1. Read cleaned CSV
 csv_path = "cleaned_amazon_sales.csv"
@@ -15,13 +15,13 @@ df["B2B"] = df["B2B"].astype(str)
 df["Promotion_Used"] = df["Promotion_Used"].astype(str)
 
 # 3. Ask for MySQL password
-password = getpass("Enter MySQL password: ")
+password = getpass("Enter MySQL tanu09: ")
 
 # 4. Create MySQL connection
 url = URL.create(
     "mysql+pymysql",
     username="root",
-    password=password,
+    password=tanu09,
     host="localhost",
     port=3306,
     database="ecommerce_sales"
